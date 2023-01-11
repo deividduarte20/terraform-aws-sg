@@ -1,11 +1,27 @@
 ## Projeto consiste em provisionar Security group usando data source para obter vpc id através da tag name da vpc
 
+### Baixe o projeto
+```bash
+git clone https://github.com/deividduarte20/terraform-aws-sg.git
+```
+
+### Inicie o terraform
+```bash
+terraform init
+```
+
+### Aplique a infra como código
+```bash
+terraform apply
+```
+
 ## Requirements
 
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.3 |
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 3.74.3 |
+| <a name="requirement_git"></a> [git](#requirement\_git) | >= 2.10.1 |
 
 ## Providers
 
